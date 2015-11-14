@@ -9,7 +9,8 @@ repository = "https://github.com/kbknapp/cargo-extras.git"
 authors = [
   "Kevin K. <kbknapp@gmail.com>", # cargo-outdated, cargo-count, cargo-graph
   "Max New <maxsnew@gmail.com>", # cargo-grpah
-  "Ray Solomon <raybsolomon@gmail.com>", # cargo-check
+  "Ray Solomon <raybsolomon@gmail.com>", # cargo-check, cargo-clippy
+	"arcnmx", # cargo-clippy
   "Paul Woolcock <paul@woolcock.us>", # cargo-do, cargo-fmt
   "Without Boats <lee@libertad.ucsd.edu>", # cargo-edit (add, rm, list)
   "Pascal Hertleif <killercup@gmail.com>", # cargo-edit (add, rm, list)
@@ -21,6 +22,7 @@ authors = [
   "Gabor Nagy <mail@aigeruth.hu>", # cargo-watch
   "Ivan Jager <aij+git@mrph.org>", # cargo-watch
   "Christopher Brickley <brickley@gmail.com>", # cargo-watch
+  "Wesley Wiser <wwiser@gmail.com>", # cargo-config
 ]
 
 [[bin]]
@@ -64,6 +66,14 @@ path = "src/cargo-script/src/main.rs"
 [[bin]]
 name = "cargo-watch"
 path = "src/cargo-watch/src/main.rs"
+
+[[bin]]
+name = "cargo-clippy"
+path = "src/cargo-clippy/src/main.rs"
+
+[[bin]]
+name = "cargo-config"
+path = "src/cargo-config/src/main.rs"
 
 [dependencies]
 ### cargo-count
@@ -111,6 +121,11 @@ notify = "^2.4.1"
 # regex = "*"
 # rustc-serialize = "*"
 # time = "*"
+### cargo-clippy
+clippy = "~0.0"
+### cargo-config
+# rustc-serialize = "0.3"
+# toml = "0.1"
 
 [dev-dependencies]
 ### cargo-edit
