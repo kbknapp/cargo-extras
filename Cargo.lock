@@ -5,7 +5,7 @@ dependencies = [
  "ansi_term 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "assert_cli 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "cargo 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "clap 1.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "clap 1.5.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "curl 0.2.13 (registry+https://github.com/rust-lang/crates.io-index)",
  "docopt 0.6.75 (registry+https://github.com/rust-lang/crates.io-index)",
  "env_logger 0.3.2 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -106,7 +106,7 @@ dependencies = [
 
 [[package]]
 name = "clap"
-version = "1.5.1"
+version = "1.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "ansi_term 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
