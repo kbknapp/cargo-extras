@@ -16,7 +16,7 @@ To see all the commands installed:
 $ cargo --listed
 ```
 
-This may require a nightly version of `cargo` if you get an error about the `install` command not being found. If you are using `multirust`(^[1](https://github.com/Diggsey/multirust-rs)^[2](https://github.com/brson/multirust)) you could run:
+This may require a nightly version of `cargo` if you get an error about the `install` command not being found. If you are using `multirust`<sup>[1](https://github.com/Diggsey/multirust-rs)[2](https://github.com/brson/multirust)</sup> you could run:
 
 ```
 $ multirust run nightly cargo install cargo-extras
@@ -78,6 +78,7 @@ Otherwise, ensure you have the binaries in the directory which you operating in 
 
  * [cargo-check](https://github.com/rsolomo/cargo-check) - a wrapper around `cargo rustc -- -Zno-trans` which can be helpful for running a faster compile if you only need correctness checks
  * [cargo-count](https://github.com/kbknapp/cargo-count) - lists source code counts and details about cargo projects, including unsafe statistics
+ * [cargo-do](https://github.com/pwoolcoc/cargo-do) - run multiple `cargo` commands in a row
  * [cargo-graph](https://github.com/kbknapp/cargo-graph) - builds dependency graphs using GraphViz `dot` and is an updated fork of [cargo-dot](https://github.com/maxsnew/cargo-dot) with additional features
  * [cargo-outdated](https://github.com/kbknapp/cargo-outdated) - displays when newer versions of Rust dependencies are available, or out of date
 

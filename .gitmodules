@@ -10,3 +10,6 @@
 [submodule "src/cargo-check"]
 	path = src/cargo-check
 	url = https://github.com/rsolomo/cargo-check
+[submodule "src/cargo-do"]
+	path = src/cargo-do
+	url = https://github.com/pwoolcoc/cargo-do
