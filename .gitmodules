@@ -13,3 +13,6 @@
 [submodule "src/cargo-do"]
 	path = src/cargo-do
 	url = https://github.com/pwoolcoc/cargo-do
+[submodule "src/cargo-edit"]
+	path = src/cargo-edit
+	url = https://github.com/killercup/cargo-edit
