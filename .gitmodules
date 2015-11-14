@@ -31,3 +31,6 @@
 [submodule "src/cargo-config"]
 	path = src/cargo-config
 	url = https://github.com/wesleywiser/cargo-config
+[submodule "src/cargo-open"]
+	path = src/cargo-open
+	url = https://github.com/carols10cents/cargo-open

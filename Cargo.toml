@@ -23,6 +23,7 @@ authors = [
   "Ivan Jager <aij+git@mrph.org>", # cargo-watch
   "Christopher Brickley <brickley@gmail.com>", # cargo-watch
   "Wesley Wiser <wwiser@gmail.com>", # cargo-config
+  "Carol (Nichols || Goulding) <carol.nichols@gmail.com>", # cargo-open
 ]
 
 [[bin]]
@@ -75,6 +76,10 @@ path = "src/cargo-clippy/src/main.rs"
 name = "cargo-config"
 path = "src/cargo-config/src/main.rs"
 
+[[bin]]
+name = "cargo-open"
+path = "src/cargo-open/src/main.rs"
+
 [dependencies]
 ### cargo-count
 clap      = "~1.5"
@@ -126,6 +131,9 @@ clippy = "~0.0"
 ### cargo-config
 # rustc-serialize = "0.3"
 # toml = "0.1"
+### cargo-open
+# clap = "~1.5"
+cargo = "~0.6"
 
 [dev-dependencies]
 ### cargo-edit
