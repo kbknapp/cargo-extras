@@ -19,3 +19,6 @@
 [submodule "src/cargo-fmt"]
 	path = src/cargo-fmt
 	url = https://github.com/pwoolcoc/cargo-fmt
+[submodule "src/cargo-script"]
+	path = src/cargo-script
+	url = https://github.com/DanielKeep/cargo-script
