@@ -14,6 +14,13 @@ authors = [
   "Without Boats <lee@libertad.ucsd.edu>", # cargo-edit (add, rm, list)
   "Pascal Hertleif <killercup@gmail.com>", # cargo-edit (add, rm, list)
   "Daniel Keep <daniel.keep@gmail.com>", # cargo-script
+  "Félix Saparelli <me@passcod.name>", # cargo-watch
+  "Antti Keränen <detegr@gmail.com>", # cargo-watch
+  "Konstantin Stepanov <me@kstep.me>", # cargo-watch
+  "Jonathan Neuschäfer <j.neuschaefer@gmx.net>", # cargo-watch
+  "Gabor Nagy <mail@aigeruth.hu>", # cargo-watch
+  "Ivan Jager <aij+git@mrph.org>", # cargo-watch
+  "Christopher Brickley <brickley@gmail.com>", # cargo-watch
 ]
 
 [[bin]]
@@ -49,6 +56,14 @@ path = "src/cargo-edit/src/bin/rm/main.rs"
 [[bin]]
 name = "cargo-fmt"
 path = "src/cargo-fmt/src/main.rs"
+
+[[bin]]
+name = "cargo-script"
+path = "src/cargo-script/src/main.rs"
+
+[[bin]]
+name = "cargo-watch"
+path = "src/cargo-watch/src/main.rs"
 
 [dependencies]
 ### cargo-count
@@ -88,6 +103,14 @@ log = "0.3.1"
 shaman = "0.1.0"
 time = "0.1.25"
 # toml = "0.1.20"
+### cargo-watch
+# docopt = "^0.6"
+# env_logger = "^0.3"
+# log = "^0.3"
+notify = "^2.4.1"
+# regex = "*"
+# rustc-serialize = "*"
+# time = "*"
 
 [dev-dependencies]
 ### cargo-edit

@@ -22,3 +22,6 @@
 [submodule "src/cargo-script"]
 	path = src/cargo-script
 	url = https://github.com/DanielKeep/cargo-script
+[submodule "src/cargo-watch"]
+	path = src/cargo-watch
+	url = https://github.com/passcod/cargo-watch
