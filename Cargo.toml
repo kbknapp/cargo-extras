@@ -68,9 +68,9 @@ path = "src/cargo-script/src/main.rs"
 name = "cargo-watch"
 path = "src/cargo-watch/src/main.rs"
 
-[[bin]]
-name = "cargo-clippy"
-path = "src/cargo-clippy/src/main.rs"
+# [[bin]]
+# name = "cargo-clippy"
+# path = "src/cargo-clippy/src/main.rs"
 
 [[bin]]
 name = "cargo-config"
@@ -127,7 +127,7 @@ notify = "^2.4.1"
 # rustc-serialize = "*"
 # time = "*"
 ### cargo-clippy
-clippy = "~0.0"
+# clippy = "~0.0"
 ### cargo-config
 # rustc-serialize = "0.3"
 # toml = "0.1"
