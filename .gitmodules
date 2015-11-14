@@ -7,3 +7,6 @@
 [submodule "src/cargo-graph"]
 	path = src/cargo-graph
 	url = git@github.com:kbknapp/cargo-graph.git
+[submodule "src/cargo-check"]
+	path = src/cargo-check
+	url = https://github.com/rsolomo/cargo-check
