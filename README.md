@@ -77,11 +77,11 @@ Otherwise, ensure you have the binaries in the directory which you operating in 
 `cargo-extras` currently includes the following subcommands
 
  * [cargo-check](https://github.com/rsolomo/cargo-check) - a wrapper around `cargo rustc -- -Zno-trans` which can be helpful for running a faster compile if you only need correctness checks
- * [cargo-clippy](https://github.com/arcnmx/cargo-clippy) - lint a project using [clippy](https://github.com/Manishearth/rust-clippy)
+ <!-- * [cargo-clippy](https://github.com/arcnmx/cargo-clippy) - lint a project using [clippy](https://github.com/Manishearth/rust-clippy) -->
  * [cargo-config](https://github.com/wesleywiser/cargo-config) - prints info about the current crate
  * [cargo-count](https://github.com/kbknapp/cargo-count) - lists source code counts and details about cargo projects, including unsafe statistics
  * [cargo-do](https://github.com/pwoolcoc/cargo-do) - run multiple `cargo` commands in a row
- * [cargo-edit](https://github.com/killercup/cargo-edit) - allows you to add and list dependencies by reading/writing to your Cargo.toml file from the command line
+ <!-- * [cargo-edit](https://github.com/killercup/cargo-edit) - allows you to add and list dependencies by reading/writing to your Cargo.toml file from the command line -->
  * [cargo-fmt](https://github.com/pwoolcoc/cargo-fmt) - allows running [rustfmt](https://github.com/rust-lang-nursery/rustmft) from `cargo`
  * [cargo-graph](https://github.com/kbknapp/cargo-graph) - builds dependency graphs using GraphViz `dot` and is an updated fork of [cargo-dot](https://github.com/maxsnew/cargo-dot) with additional features
  * [cargo-open](https://github.com/carols10cents/cargo-open) - quickly open a crate in your `$EDITOR`

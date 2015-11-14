@@ -10,10 +10,10 @@ authors = [
   "Kevin K. <kbknapp@gmail.com>", # cargo-outdated, cargo-count, cargo-graph
   "Max New <maxsnew@gmail.com>", # cargo-grpah
   "Ray Solomon <raybsolomon@gmail.com>", # cargo-check, cargo-clippy
-	"arcnmx", # cargo-clippy
+	# "arcnmx", # cargo-clippy
   "Paul Woolcock <paul@woolcock.us>", # cargo-do, cargo-fmt
-  "Without Boats <lee@libertad.ucsd.edu>", # cargo-edit (add, rm, list)
-  "Pascal Hertleif <killercup@gmail.com>", # cargo-edit (add, rm, list)
+  # "Without Boats <lee@libertad.ucsd.edu>", # cargo-edit (add, rm, list)
+  # "Pascal Hertleif <killercup@gmail.com>", # cargo-edit (add, rm, list)
   "Daniel Keep <daniel.keep@gmail.com>", # cargo-script
   "Félix Saparelli <me@passcod.name>", # cargo-watch
   "Antti Keränen <detegr@gmail.com>", # cargo-watch
@@ -37,24 +37,22 @@ path = "src/cargo-count/src/main.rs"
 [[bin]]
 name = "cargo-graph"
 path = "src/cargo-graph/src/main.rs"
-test = false
-doc = true
 
 [[bin]]
 name = "cargo-outdated"
 path = "src/cargo-outdated/src/main.rs"
 
-[[bin]]
-name = "cargo-list"
-path = "src/cargo-edit/src/bin/list/main.rs"
+# [[bin]]
+# name = "cargo-list"
+# path = "src/cargo-edit/src/bin/list/main.rs"
 
-[[bin]]
-name = "cargo-add"
-path = "src/cargo-edit/src/bin/add/main.rs"
+# [[bin]]
+# name = "cargo-add"
+# path = "src/cargo-edit/src/bin/add/main.rs"
 
-[[bin]]
-name = "cargo-rm"
-path = "src/cargo-edit/src/bin/rm/main.rs"
+# [[bin]]
+# name = "cargo-rm"
+# path = "src/cargo-edit/src/bin/rm/main.rs"
 
 [[bin]]
 name = "cargo-fmt"
@@ -99,9 +97,9 @@ semver = "0.2"
 tempdir = "0.3"
 # ansi_term = {version = "0.7", optional = true}
 ### cargo-edit
-docopt = "0.6"
-pad = "0.1"
-rustc-serialize = "0.3"
+# docopt = "0.6"
+# pad = "0.1"
+# rustc-serialize = "0.3"
 # semver = "0.1"
 # toml = "0.1"
 curl = "0.2.11"
@@ -114,12 +112,12 @@ hoedown = "3.0.3"
 lazy_static = "0.1.15"
 log = "0.3.1"
 # regex = "0.1.33"
-# rustc-serialize = "0.3.14"
+rustc-serialize = "~0.3.14"
 shaman = "0.1.0"
 time = "0.1.25"
 # toml = "0.1.20"
 ### cargo-watch
-# docopt = "^0.6"
+docopt = "~0.6"
 # env_logger = "^0.3"
 # log = "^0.3"
 notify = "^2.4.1"
