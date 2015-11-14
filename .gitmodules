@@ -1,0 +1,9 @@
+[submodule "src/cargo-count"]
+	path = src/cargo-count
+	url = git@github.com:kbknapp/cargo-count.git
+[submodule "src/cargo-outdated"]
+	path = src/cargo-outdated
+	url = git@github.com:kbknapp/cargo-outdated.git
+[submodule "src/cargo-graph"]
+	path = src/cargo-graph
+	url = git@github.com:kbknapp/cargo-graph.git

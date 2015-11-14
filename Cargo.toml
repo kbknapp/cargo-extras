@@ -1,0 +1,49 @@
+[package]
+name = "cargo-extras"
+version = "0.1.0"
+license = "MIT"
+description = "A collection of cargo subcommands"
+keywords = ["cargo", "subcommands", "command", "collection", "pack"]
+readme = "README.md"
+repository = "https://github.com/kbknapp/cargo-extras.git"
+authors = [
+  "Kevin K. <kbknapp@gmail.com>",
+  "Max New <maxsnew@gmail.com>"
+]
+
+[[bin]]
+name = "cargo-count"
+path = "src/cargo-count/src/main.rs"
+
+[[bin]]
+name = "cargo-graph"
+path = "src/cargo-graph/src/main.rs"
+test = false
+doc = true
+
+[[bin]]
+name = "cargo-outdated"
+path = "src/cargo-outdated/src/main.rs"
+
+[dependencies]
+### cargo-count
+clap      = "~1.5"
+glob      = "~0.2"
+regex     = "~0.1"
+tabwriter = "~0.1"
+ansi_term = {version = "~0.7", optional = true}
+### cargo-graph
+toml = "~0.1.22"
+# clap = "~1.5"
+# ansi_term = { version = "~0.7", optional = true }
+### cargo-outdated
+# clap = "~1.5"
+# toml = "0.1"
+semver = "0.2"
+# tabwriter = "0.1"
+tempdir = "0.3"
+# ansi_term = {version = "0.7", optional = true}
+
+[features]
+default = ["color"]
+color   = ["ansi_term"]
