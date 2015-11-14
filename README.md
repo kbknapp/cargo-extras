@@ -13,7 +13,7 @@ $ cargo install cargo-extras
 To see all the commands installed:
 
 ```
-$ cargo --listed
+$ cargo --list
 ```
 
 This may require a nightly version of `cargo` if you get an error about the `install` command not being found. If you are using `multirust`<sup>[1](https://github.com/Diggsey/multirust-rs),[2](https://github.com/brson/multirust)</sup> you could run:
