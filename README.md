@@ -4,7 +4,15 @@ A collection of [cargo](https://github.com/rust-lang/cargo) subcommands for use 
 
 ## Installing
 
-You can install all of the subcommands included in `cargo-extras` with a single `cargo install` run.
+You can install all of the subcommands included in `cargo-extras` with a single `cargo install`.
+
+### Prerequisits
+
+Because one of the subcommands requires `cmake` to build, you must have `cmake` installed on your system. Follow your operating system's guidance for installing this package.
+
+### Primary Method: `cargo install`
+
+Simply run:
 
 ```
 $ cargo install cargo-extras
@@ -24,7 +32,16 @@ $ multirust run nightly cargo install cargo-extras
 
 You may also, instead compile and install the traditional way by following the instructions below.
 
-## Compiling
+#### OSX Specifc Issue
+
+On El Capitan there is an issue with `openssl-sys` (see [the related issue](https://github.com/sfackler/rust-openssl/issues/255)) which can be solved by running these two commands (assuming you have [Homebrew](http://brew.sh))
+
+```
+$ brew install openssl
+$ OPENSSL_INCLUDE_DIR=/usr/local/opt/openssl/include cargo install cargo-extras
+```
+
+### Alternate Method: Compiling
 
 Follow these instructions to compile `cargo-extras`, then skip down to Installation.
 
@@ -33,7 +50,7 @@ Follow these instructions to compile `cargo-extras`, then skip down to Installat
  3. Build the project `$ cargo build --release` (**NOTE:** There is a large performance differnce when compiling without optimizations, so I recommend alwasy using `--release` to enable to them)
  4. Once complete, all the binaries will be located at `target/release/`
 
-## Installation and Usage
+#### Installation 
 
 All you need to do is place the binary subcommands somewhere in your `$PATH`. Then run `cargo <command>` anywhere in your project directory. Example:
 
@@ -43,7 +60,7 @@ $ cp target/release/cargo-* ~/.bin
 
 In the above example, the `.bin` directory inside my home directy is inside my `$PATH`
 
-### Linux / OS X
+###### Linux / OS X
 
 You have two options, place `cargo-count` into a directory that is already located in your `$PATH` variable (To see which directories those are, open a terminal and type `echo "${PATH//:/\n}"`, the quotation marks are important), or you can add a custom directory to your `$PATH`
 
@@ -62,17 +79,17 @@ $ cp target/release/cargo-* ~/bin
 $ source ~/.bashrc
 ```
 
-### Windows
+##### Windows
 
 On Windows 7/8 you can add directory to the `PATH` variable by opening a command line as an administrator and running
 
-```sh
+```
 C:\> setx path "%path%;C:\path\to\cargo\binaries"
 ```
 
-Otherwise, ensure you have the binaries in the directory which you operating in the command line from, because Windows automatically adds your current directory to PATH (i.e. if you open a command line to `C:\my_project\` to use `cargo-count` ensure `cargo-count.exe` is inside that directory as well).
+Otherwise, ensure you have the binaries in the directory which you operating in the command line from, because Windows automatically adds your current directory to `PATH` (i.e. if you open a command line to `C:\my_project\\` to use `cargo-count` ensure `cargo-count.exe` is inside that directory as well).
 
-## Installed Subcommands
+## Included Subcommands
 
 `cargo-extras` currently includes the following subcommands
 
