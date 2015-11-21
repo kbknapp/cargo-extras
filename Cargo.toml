@@ -80,7 +80,7 @@ path = "src/cargo-open/src/main.rs"
 
 [dependencies]
 ### cargo-count
-clap      = "~1.5"
+clap      = "~1.5.3"
 glob      = "~0.2"
 regex     = "~0.1"
 tabwriter = "~0.1"
@@ -98,12 +98,12 @@ tempdir = "0.3"
 # ansi_term = {version = "0.7", optional = true}
 ### cargo-edit
 # docopt = "0.6"
-# pad = "0.1"
+pad = "~0.1"
 # rustc-serialize = "0.3"
 # semver = "0.1"
 # toml = "0.1"
-# curl = "0.2.11"
-# quick-error = "0.1.3"
+curl = "~0.2.11"
+quick-error = "0.1.3"
 cargo-edit = "~0.1"
 ### cargo-fmt
 walker = "^1.0.0"
