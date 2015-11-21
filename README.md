@@ -12,13 +12,19 @@ Because one of the subcommands requires `cmake` to build, you must have `cmake` 
 
 ### Primary Method: `cargo install`
 
-Simply run:
+To install from [crates.io](https://crates.io) simply run:
 
 ```
 $ cargo install cargo-extras
 ```
 
-To see all the commands installed:
+Alternatively you can track the latest on the master branch in this repo (sometimes it contains bleeding edge updates that haven't been released to the crates.io version):
+
+```
+$ cargo install --git https://github.com/kbknapp/cargo-extras
+```
+
+To see all the commands that are now installed (to include standard `cargo` commands):
 
 ```
 $ cargo --list
