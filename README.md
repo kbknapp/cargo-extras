@@ -1,6 +1,9 @@
 # cargo-extras
 
+Linux: [![Travis](https://img.shields.io/travis/kbknapp/cargo-extras.svg)](https://travis-ci.org/kbknapp/cargo-extras)
+
 Latest on crates.io: [![Crates.io](https://img.shields.io/crates/v/cargo-extras.svg)](https://crates.io/crates/cargo-extras)
+
 Latest on Github: [![GitHub release](https://img.shields.io/github/release/kbknapp/cargo-extras.svg)](https://github.com/kbknapp/cargo-extras/releases)
 
 A collection of [cargo](https://github.com/rust-lang/cargo) subcommands for use while working on [Rust](https://www.rust-lang.org/) source code and projects. This repository and package aims to make it easy to install all the additional commands at once.
