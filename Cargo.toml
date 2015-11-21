@@ -1,6 +1,6 @@
 [package]
 name = "cargo-extras"
-version = "0.1.1"
+version = "0.2.0"
 license = "MIT"
 description = "A collection of cargo subcommands"
 keywords = ["cargo", "subcommands", "command", "collection", "pack"]

@@ -1,3 +1,21 @@
+<a name="v0.2.0"></a>
+## v0.2.0 (2015-11-21)
+
+
+#### Updates
+
+*   cargo-outdated ([271ff0ed](https://github.com/kbknapp/cargo-extras/commit/271ff0edb59b881dc6cf816ffd594f191a5faa61))
+*   cargo-graph ([72932419](https://github.com/kbknapp/cargo-extras/commit/72932419da475f91e4923d0d5c5c519b582076a1))
+*   cargo-fmt ([102eb826](https://github.com/kbknapp/cargo-extras/commit/102eb826aa0997476723b238f3366e21655bef0b))
+*   cargo-edit ([d65eff3d](https://github.com/kbknapp/cargo-extras/commit/d65eff3daf071888640c6bdd7c60a8b5113b5786))
+*   cargo-count ([ada760a2](https://github.com/kbknapp/cargo-extras/commit/ada760a287ae328fdaa502a562e860824f4b74c2))
+
+#### Additions
+
+*   adds cargo-edit ([bc4c9c68](https://github.com/kbknapp/cargo-extras/commit/bc4c9c6842cdb5114c6df050e40f58dfc936d50e), closes [#1](https://github.com/kbknapp/cargo-extras/issues/1))
+
+
+
 <a name="v0.1.0"></a>
 ## v0.1.0 (2015-11-14)
 
