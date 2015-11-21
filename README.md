@@ -1,5 +1,8 @@
 # cargo-extras
 
+Latest on crates.io: [![Crates.io](https://img.shields.io/crates/v/cargo-extras.svg)](https://crates.io/crates/cargo-extras)
+Latest on Github: [![GitHub release](https://img.shields.io/github/release/kbknapp/cargo-extras.svg)](https://github.com/kbknapp/cargo-extras/releases)
+
 A collection of [cargo](https://github.com/rust-lang/cargo) subcommands for use while working on [Rust](https://www.rust-lang.org/) source code and projects. This repository and package aims to make it easy to install all the additional commands at once.
 
 ## Installing
@@ -18,7 +21,7 @@ To install from [crates.io](https://crates.io) simply run:
 $ cargo install cargo-extras
 ```
 
-Alternatively you can track the latest on the master branch in this repo (sometimes it contains bleeding edge updates that haven't been released to the crates.io version):
+Alternatively you can track the latest on the master branch in this repo (if the version badges above are different, the master branch here may contain bleeding edge updates that haven't been released to the crates.io version):
 
 ```
 $ cargo install --git https://github.com/kbknapp/cargo-extras
