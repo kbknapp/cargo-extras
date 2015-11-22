@@ -1,9 +1,9 @@
 [root]
 name = "cargo-extras"
-version = "0.1.1"
+version = "0.2.0"
 dependencies = [
  "ansi_term 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "cargo 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "cargo 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "cargo-edit 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "clap 1.5.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "curl 0.2.13 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -61,7 +61,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "cargo"
-version = "0.6.0"
+version = "0.6.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "advapi32-sys 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
