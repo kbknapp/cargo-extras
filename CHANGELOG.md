@@ -1,3 +1,13 @@
+:wq<a name="v0.2.1"></a>
+### v0.2.1 (2015-11-30)
+
+
+#### Updates
+
+*   updates cargo-edit and cargo-script ([ea921d05](https://github.com/kbknapp/cargo-extras/commit/ea921d0548cfe332358d43920b4c40cdb88be556))
+
+
+
 <a name="v0.2.0"></a>
 ## v0.2.0 (2015-11-21)
 
