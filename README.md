@@ -106,6 +106,7 @@ Otherwise, ensure you have the binaries in the directory which you operating in 
 `cargo-extras` currently includes the following subcommands (commits listed for subcommands not using `git tag`s):
 
  * [cargo-check v0.1.0 (e602882a3a)](https://github.com/rsolomo/cargo-check) - a wrapper around `cargo rustc -- -Zno-trans` which can be helpful for running a faster compile if you only need correctness checks
+ * [cargo-clippy v0.1.0 (c3f6ba5eba)](https://github.com/arcnmx/cargo-clippy) - allows running [rust-clippy](https://github.com/Manishearth/rust-clippy) from the command line instead of adding to your project
  * [cargo-config v0.1.1 (d6ad04c593)](https://github.com/wesleywiser/cargo-config) - prints info about the current crate
  * [cargo-count v0.1.3](https://github.com/kbknapp/cargo-count) - lists source code counts and details about cargo projects, including unsafe statistics
  * [cargo-do v0.3.1 (b120fce315)](https://github.com/pwoolcoc/cargo-do) - run multiple `cargo` commands in a row
