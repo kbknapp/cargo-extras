@@ -111,7 +111,7 @@ Otherwise, ensure you have the binaries in the directory which you operating in 
  * [cargo-do](https://github.com/pwoolcoc/cargo-do) - run multiple `cargo` commands in a row
  * [cargo-edit](https://github.com/killercup/cargo-edit) - allows you to add and remove dependencies from the command line. Installs `cargo-add`, `cargo-rm`, and `cargo-list`.
  * [cargo-fmt](https://github.com/pwoolcoc/cargo-fmt) - allows running [rustfmt](https://github.com/rust-lang-nursery/rustmft) from `cargo`
- * [cargo-graph](https://github.com/kbknapp/cargo-graph) - builds dependency graphs using GraphViz `dot` and is an updated fork of [cargo-dot](https://github.com/maxsnew/cargo-dot) with additional features
+ * [cargo-graph v0.1.3](https://github.com/kbknapp/cargo-graph) - builds dependency graphs using GraphViz `dot` and is an updated fork of [cargo-dot](https://github.com/maxsnew/cargo-dot) with additional features
  * [cargo-open](https://github.com/carols10cents/cargo-open) - quickly open a crate in your `$EDITOR`
  * [cargo-outdated](https://github.com/kbknapp/cargo-outdated) - displays when newer versions of Rust dependencies are available, or out of date
  * [cargo-script](https://github.com/DanielKeep/cargo-script) - lets people quickly and easily run Rust "scripts" which can make use of Cargo's package ecosystem
