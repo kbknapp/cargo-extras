@@ -109,7 +109,7 @@ Otherwise, ensure you have the binaries in the directory which you operating in 
  * [cargo-config v0.1.1 (d6ad04c593)](https://github.com/wesleywiser/cargo-config) - prints info about the current crate
  * [cargo-count v0.1.3](https://github.com/kbknapp/cargo-count) - lists source code counts and details about cargo projects, including unsafe statistics
  * [cargo-do v0.3.1 (b120fce315)](https://github.com/pwoolcoc/cargo-do) - run multiple `cargo` commands in a row
- * [cargo-edit](https://github.com/killercup/cargo-edit) - allows you to add and remove dependencies from the command line. Installs `cargo-add`, `cargo-rm`, and `cargo-list`.
+ * [cargo-edit v0.1.1 (3ae8e70bf1)](https://github.com/killercup/cargo-edit) - allows you to add and remove dependencies from the command line. Installs `cargo-add`, `cargo-rm`, and `cargo-list`.
  * [cargo-fmt](https://github.com/pwoolcoc/cargo-fmt) - allows running [rustfmt](https://github.com/rust-lang-nursery/rustmft) from `cargo`
  * [cargo-graph v0.1.3](https://github.com/kbknapp/cargo-graph) - builds dependency graphs using GraphViz `dot` and is an updated fork of [cargo-dot](https://github.com/maxsnew/cargo-dot) with additional features
  * [cargo-open](https://github.com/carols10cents/cargo-open) - quickly open a crate in your `$EDITOR`
