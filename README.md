@@ -103,7 +103,7 @@ Otherwise, ensure you have the binaries in the directory which you operating in 
 
 ## Included Subcommands
 
-`cargo-extras` currently includes the following subcommands
+`cargo-extras` currently includes the following subcommands (commits listed for subcommands not using `git tag`s):
 
  * [cargo-check v0.1.0 (e602882a3a)](https://github.com/rsolomo/cargo-check) - a wrapper around `cargo rustc -- -Zno-trans` which can be helpful for running a faster compile if you only need correctness checks
  * [cargo-config v0.1.1 (d6ad04c593)](https://github.com/wesleywiser/cargo-config) - prints info about the current crate
@@ -115,7 +115,7 @@ Otherwise, ensure you have the binaries in the directory which you operating in 
  * [cargo-open v0.3.0 (c070fb01b5)](https://github.com/carols10cents/cargo-open) - quickly open a crate in your `$EDITOR`
  * [cargo-outdated v0.1.3](https://github.com/kbknapp/cargo-outdated) - displays when newer versions of Rust dependencies are available, or out of date
  * [cargo-script v0.1.4 (ccf3f7fbfc)](https://github.com/DanielKeep/cargo-script) - lets people quickly and easily run Rust "scripts" which can make use of Cargo's package ecosystem
- * [cargo-watch](https://github.com/passcod/cargo-watch) - utility for `cargo` to compile projects when sources change
+ * [cargo-watch v3.0.1](https://github.com/passcod/cargo-watch) - utility for `cargo` to compile projects when sources change
 
 ## License
 
