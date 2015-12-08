@@ -1,6 +1,6 @@
 [package]
 name = "cargo-extras"
-version = "0.2.1"
+version = "0.2.2"
 license = "MIT"
 description = "A collection of cargo subcommands"
 keywords = ["cargo", "subcommands", "command", "collection", "pack"]
@@ -10,7 +10,7 @@ authors = [
   "Kevin K. <kbknapp@gmail.com>", # cargo-outdated, cargo-count, cargo-graph
   "Max New <maxsnew@gmail.com>", # cargo-grpah
   "Ray Solomon <raybsolomon@gmail.com>", # cargo-check, cargo-clippy
-	# "arcnmx", # cargo-clippy
+  "arcnmx", # cargo-clippy
   "Paul Woolcock <paul@woolcock.us>", # cargo-do, cargo-fmt
   "Without Boats <lee@libertad.ucsd.edu>", # cargo-edit (add, rm, list)
   "Pascal Hertleif <killercup@gmail.com>", # cargo-edit (add, rm, list)
@@ -66,9 +66,9 @@ path = "src/cargo-script/src/main.rs"
 name = "cargo-watch"
 path = "src/cargo-watch/src/main.rs"
 
-# [[bin]]
-# name = "cargo-clippy"
-# path = "src/cargo-clippy/src/main.rs"
+[[bin]]
+name = "cargo-clippy"
+path = "src/cargo-clippy/src/main.rs"
 
 [[bin]]
 name = "cargo-config"
@@ -126,7 +126,7 @@ notify = "^2.4.1"
 # rustc-serialize = "*"
 # time = "*"
 ### cargo-clippy
-# clippy = "~0.0"
+clippy = "~0.0"
 ### cargo-config
 # rustc-serialize = "0.3"
 # toml = "0.1"
@@ -134,10 +134,10 @@ notify = "^2.4.1"
 # clap = "~1.5"
 cargo = "~0.6"
 
-# [dev-dependencies]
-### cargo-edit
-# assert_cli = "0.2.0"
-# tempdir = "0.3"
+[dev-dependencies]
+## cargo-edit
+assert_cli = "0.2.0"
+tempdir = "0.3"
 
 [features]
 default = ["color"]
