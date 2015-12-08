@@ -105,7 +105,7 @@ Otherwise, ensure you have the binaries in the directory which you operating in 
 
 `cargo-extras` currently includes the following subcommands
 
- * [cargo-check](https://github.com/rsolomo/cargo-check) - a wrapper around `cargo rustc -- -Zno-trans` which can be helpful for running a faster compile if you only need correctness checks
+ * [cargo-check v0.1.0 (e602882a3a)](https://github.com/rsolomo/cargo-check) - a wrapper around `cargo rustc -- -Zno-trans` which can be helpful for running a faster compile if you only need correctness checks
  * [cargo-config](https://github.com/wesleywiser/cargo-config) - prints info about the current crate
  * [cargo-count v0.1.3](https://github.com/kbknapp/cargo-count) - lists source code counts and details about cargo projects, including unsafe statistics
  * [cargo-do](https://github.com/pwoolcoc/cargo-do) - run multiple `cargo` commands in a row
@@ -113,7 +113,7 @@ Otherwise, ensure you have the binaries in the directory which you operating in 
  * [cargo-fmt](https://github.com/pwoolcoc/cargo-fmt) - allows running [rustfmt](https://github.com/rust-lang-nursery/rustmft) from `cargo`
  * [cargo-graph v0.1.3](https://github.com/kbknapp/cargo-graph) - builds dependency graphs using GraphViz `dot` and is an updated fork of [cargo-dot](https://github.com/maxsnew/cargo-dot) with additional features
  * [cargo-open](https://github.com/carols10cents/cargo-open) - quickly open a crate in your `$EDITOR`
- * [cargo-outdated](https://github.com/kbknapp/cargo-outdated) - displays when newer versions of Rust dependencies are available, or out of date
+ * [cargo-outdated v0.1.3](https://github.com/kbknapp/cargo-outdated) - displays when newer versions of Rust dependencies are available, or out of date
  * [cargo-script](https://github.com/DanielKeep/cargo-script) - lets people quickly and easily run Rust "scripts" which can make use of Cargo's package ecosystem
  * [cargo-watch](https://github.com/passcod/cargo-watch) - utility for `cargo` to compile projects when sources change
 
