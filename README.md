@@ -18,7 +18,7 @@ Because one of the subcommands requires `cmake` to build, you must have `cmake` 
 
 ### Primary Method: `cargo install`
 
-To install from [crates.io](https://crates.io) simply run:
+To install from [crates.io](https://crates.io) simply run (ensure you have a **nightly** `rustc` installed, or are using something like `multirust`<sup>[1](https://github.com/Diggsey/multirust-rs),[2](https://github.com/brson/multirust)</sup> ):
 
 ```
 $ cargo install cargo-extras
@@ -36,7 +36,7 @@ To see all the commands that are now installed (to include standard `cargo` comm
 $ cargo --list
 ```
 
-This may require a nightly version of `cargo` if you get an error about the `install` command not being found. If you are using `multirust`<sup>[1](https://github.com/Diggsey/multirust-rs),[2](https://github.com/brson/multirust)</sup> you could run:
+If you get an error about the `install` command not being found, or are using `multirust`<sup>[1](https://github.com/Diggsey/multirust-rs),[2](https://github.com/brson/multirust)</sup> you could run:
 
 ```
 $ multirust run nightly cargo install cargo-extras
@@ -58,7 +58,7 @@ $ OPENSSL_INCLUDE_DIR=/usr/local/opt/openssl/include cargo install cargo-extras
 Follow these instructions to compile `cargo-extras`, then skip down to Installation.
 
  1. Ensure you have current version of `cargo` and [Rust](https://www.rust-lang.org) installed
- 2. Clone the project `$ git clone --depth 50 https://github.com/kbknapp/cargo-extras && cd cargo-extras`
+ 2. Clone the project `$ git clone --recursive https://github.com/kbknapp/cargo-extras && cd cargo-extras`
  3. Build the project `$ cargo build --release` (**NOTE:** There is a large performance differnce when compiling without optimizations, so I recommend alwasy using `--release` to enable to them)
  4. Once complete, all the binaries will be located at `target/release/`
 
@@ -106,7 +106,7 @@ Otherwise, ensure you have the binaries in the directory which you operating in 
 `cargo-extras` currently includes the following subcommands (commits listed for subcommands not using `git tag`s):
 
  * [cargo-check v0.1.0 (e602882a3a)](https://github.com/rsolomo/cargo-check) - a wrapper around `cargo rustc -- -Zno-trans` which can be helpful for running a faster compile if you only need correctness checks
- * [cargo-clippy v0.1.0 (c3f6ba5eba)](https://github.com/arcnmx/cargo-clippy) - allows running [rust-clippy](https://github.com/Manishearth/rust-clippy) from the command line instead of adding to your project
+ * [cargo-clippy v0.1.0 (c3f6ba5eba)](https://github.com/arcnmx/cargo-clippy) - allows running [rust-clippy](https://github.com/Manishearth/rust-clippy) from the command line instead of adding to your project (Requires **nightly** `rustc` to build)
  * [cargo-config v0.1.1 (d6ad04c593)](https://github.com/wesleywiser/cargo-config) - prints info about the current crate
  * [cargo-count v0.1.3](https://github.com/kbknapp/cargo-count) - lists source code counts and details about cargo projects, including unsafe statistics
  * [cargo-do v0.3.1 (b120fce315)](https://github.com/pwoolcoc/cargo-do) - run multiple `cargo` commands in a row
@@ -115,7 +115,7 @@ Otherwise, ensure you have the binaries in the directory which you operating in 
  * [cargo-graph v0.1.3](https://github.com/kbknapp/cargo-graph) - builds dependency graphs using GraphViz `dot` and is an updated fork of [cargo-dot](https://github.com/maxsnew/cargo-dot) with additional features
  * [cargo-open v0.3.0 (c070fb01b5)](https://github.com/carols10cents/cargo-open) - quickly open a crate in your `$EDITOR`
  * [cargo-outdated v0.1.3](https://github.com/kbknapp/cargo-outdated) - displays when newer versions of Rust dependencies are available, or out of date
- * [cargo-script v0.1.4 (ccf3f7fbfc)](https://github.com/DanielKeep/cargo-script) - lets people quickly and easily run Rust "scripts" which can make use of Cargo's package ecosystem
+ * [cargo-script v0.1.4 (ccf3f7fbfc)](https://github.com/DanielKeep/cargo-script) - lets people quickly and easily run Rust "scripts" which can make use of Cargo's package ecosystem (Requires **nightly** `rustc` to build)
  * [cargo-watch v3.0.1](https://github.com/passcod/cargo-watch) - utility for `cargo` to compile projects when sources change
 
 ## License
