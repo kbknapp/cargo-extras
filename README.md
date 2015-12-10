@@ -12,7 +12,7 @@ A collection of [cargo](https://github.com/rust-lang/cargo) subcommands for use 
 
 You can install all of the subcommands included in `cargo-extras` with a single `cargo install`.
 
-### Prerequisits
+### Prerequisites
 
 Because one of the subcommands requires `cmake` to build, you must have `cmake` installed on your system. Follow your operating system's guidance for installing this package.
 
@@ -44,7 +44,7 @@ $ multirust run nightly cargo install cargo-extras
 
 You may also, instead compile and install the traditional way by following the instructions below.
 
-#### OSX Specifc Issue
+#### OSX Specific Issue
 
 On El Capitan there is an issue with `openssl-sys` (see [the related issue](https://github.com/sfackler/rust-openssl/issues/255)) which can be solved by running these two commands (assuming you have [Homebrew](http://brew.sh))
 
@@ -59,7 +59,7 @@ Follow these instructions to compile `cargo-extras`, then skip down to Installat
 
  1. Ensure you have current version of `cargo` and [Rust](https://www.rust-lang.org) installed
  2. Clone the project `$ git clone --recursive https://github.com/kbknapp/cargo-extras && cd cargo-extras`
- 3. Build the project `$ cargo build --release` (**NOTE:** There is a large performance differnce when compiling without optimizations, so I recommend alwasy using `--release` to enable to them)
+ 3. Build the project `$ cargo build --release` (**NOTE:** There is a large performance difference when compiling without optimizations, so I recommend always using `--release` to enable to them)
  4. Once complete, all the binaries will be located at `target/release/`
 
 #### Installation 
@@ -120,4 +120,4 @@ Otherwise, ensure you have the binaries in the directory which you operating in 
 
 ## License
 
-`cargo-extras` is released under the terms of the MIT. See the LICENSE-MIT file for the details. The subcommands themselves may be released under different licenes, see the [src](src) and the binary in question, most commands have a licenese file included with them.
+`cargo-extras` is released under the terms of the MIT. See the LICENSE-MIT file for the details. The subcommands themselves may be released under different licenes, see the [src](src) and the binary in question, most commands have a license file included with them.
