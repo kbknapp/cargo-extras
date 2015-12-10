@@ -1,3 +1,10 @@
+<a name="v0.2.3"></a>
+### v0.2.3 (2015-12-10)
+
+#### Bug Fixes
+
+*   had to remove cargo-clippy due to external lib requirement. Hope to resolve soon ([ac61c644](https://github.com/kbknapp/cargo-extras/commit/ac61c644d76c98cfd726941ca2532244d4f55ff4))
+
 <a name="v0.2.2"></a>
 ### v0.1.2 (2015-12-08)
 
@@ -5,7 +12,6 @@
 #### Additions
 
 *   cargo-clippy ([28406706](https://github.com/kbknapp/cargo-extras/commit/284067061bf597627ff19f3477336fa290271551))
-*   cargo-clippy ([78986e5d](https://github.com/kbknapp/cargo-extras/commit/78986e5d265bf061c8f6f0884e532e6152dd0077))
 *   adds cargo-edit ([bc4c9c68](https://github.com/kbknapp/cargo-extras/commit/bc4c9c6842cdb5114c6df050e40f58dfc936d50e), closes [#1](https://github.com/kbknapp/cargo-extras/issues/1))
 
 #### Updates
@@ -21,17 +27,6 @@
 
 * **README.md:**
   *  updates install instructions to specify nightly rustc ([36886b44](https://github.com/kbknapp/cargo-extras/commit/36886b441a2a749f3bca154af1ca5410233be657))
-  *  lists cargo-watch version ([2d18ef98](https://github.com/kbknapp/cargo-extras/commit/2d18ef983f09cbe255208d6dd81b2a052727b722))
-  *  lists cargo-script version ([848797d3](https://github.com/kbknapp/cargo-extras/commit/848797d3a12e382275c90d884060b22f4805c324))
-  *  lists cargo-open version ([8575578f](https://github.com/kbknapp/cargo-extras/commit/8575578f8eb440dae7124a70f2136c159be61e33))
-  *  lists cargo-fmt version ([c2309c64](https://github.com/kbknapp/cargo-extras/commit/c2309c6442a5563e02c75ec22a2b8d513a1a585a))
-  *  lists cargo-edit version ([982097b1](https://github.com/kbknapp/cargo-extras/commit/982097b157e0cbf36d32f2a281d5ac33767d57f9))
-  *  lists cargo-do version ([5ad128ba](https://github.com/kbknapp/cargo-extras/commit/5ad128bafff7a140ef83ef539d669ba2b86ba0e9))
-  *  lists cargo-config version ([2d3d9b72](https://github.com/kbknapp/cargo-extras/commit/2d3d9b72193ed17941c9fbe453f9d7a671513ae7))
-  *  lists cargo-check version ([26d78fcf](https://github.com/kbknapp/cargo-extras/commit/26d78fcff3d2126b08447472b3a6fec1a3193c4e))
-  *  lists cargo-outdated version ([377e962a](https://github.com/kbknapp/cargo-extras/commit/377e962afc5e475f7d577814d2aa93ae9a1006a4))
-  *  lists cargo-graph version ([06f154f6](https://github.com/kbknapp/cargo-extras/commit/06f154f6c9edbbccc9fd8e20f5ce7f9638fa0582))
-  *  lists version of cargo-count ([18d117ff](https://github.com/kbknapp/cargo-extras/commit/18d117ff1a4e134a608c70befe3cd444a22e8138))
   *  lists cargo-watch version ([d4e1a859](https://github.com/kbknapp/cargo-extras/commit/d4e1a8592020e32544acc24074f043cac780f683))
   *  lists cargo-script version ([29d3c72c](https://github.com/kbknapp/cargo-extras/commit/29d3c72c4351fc3d68dcfe0ea2eb716de726087f))
   *  lists cargo-open version ([821fed3e](https://github.com/kbknapp/cargo-extras/commit/821fed3e8853d5cc54a5265cd9a15e5fa1bd16aa))
