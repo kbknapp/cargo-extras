@@ -4,10 +4,6 @@ rust:
   - nightly
   - beta
   - stable
-matrix:
-    allow_failures:
-        - rust: beta
-        - rust: stable
 script:
   - cargo build --verbose
 addons:
