@@ -1,8 +1,33 @@
 <a name="v0.2.3"></a>
-### v0.2.3 (2015-12-10)
+### v0.2.3 (2015-12-11)
+
+#### Documentation
+
+*   removes requirement for nightly compiler ([e44cd2e0](https://github.com/kbknapp/cargo-extras/commit/e44cd2e0e31114b735496818606381cc883fbabc))
+* **README.md:**
+  *  updates install instructions to specify nightly rustc ([36886b44](https://github.com/kbknapp/cargo-extras/commit/36886b441a2a749f3bca154af1ca5410233be657))
+  *  lists cargo-watch version ([2d18ef98](https://github.com/kbknapp/cargo-extras/commit/2d18ef983f09cbe255208d6dd81b2a052727b722))
+  *  lists cargo-script version ([848797d3](https://github.com/kbknapp/cargo-extras/commit/848797d3a12e382275c90d884060b22f4805c324))
+  *  lists cargo-open version ([8575578f](https://github.com/kbknapp/cargo-extras/commit/8575578f8eb440dae7124a70f2136c159be61e33))
+  *  lists cargo-fmt version ([c2309c64](https://github.com/kbknapp/cargo-extras/commit/c2309c6442a5563e02c75ec22a2b8d513a1a585a))
+  *  lists cargo-edit version ([982097b1](https://github.com/kbknapp/cargo-extras/commit/982097b157e0cbf36d32f2a281d5ac33767d57f9))
+  *  lists cargo-do version ([5ad128ba](https://github.com/kbknapp/cargo-extras/commit/5ad128bafff7a140ef83ef539d669ba2b86ba0e9))
+  *  lists cargo-config version ([2d3d9b72](https://github.com/kbknapp/cargo-extras/commit/2d3d9b72193ed17941c9fbe453f9d7a671513ae7))
+  *  lists cargo-check version ([26d78fcf](https://github.com/kbknapp/cargo-extras/commit/26d78fcff3d2126b08447472b3a6fec1a3193c4e))
+  *  lists cargo-outdated version ([377e962a](https://github.com/kbknapp/cargo-extras/commit/377e962afc5e475f7d577814d2aa93ae9a1006a4))
+  *  lists cargo-graph version ([06f154f6](https://github.com/kbknapp/cargo-extras/commit/06f154f6c9edbbccc9fd8e20f5ce7f9638fa0582))
+  *  lists version of cargo-count ([18d117ff](https://github.com/kbknapp/cargo-extras/commit/18d117ff1a4e134a608c70befe3cd444a22e8138))
+
+#### Updates
+
+*   cargo-graph to v0.2.0 ([e6a483a7](https://github.com/kbknapp/cargo-extras/commit/e6a483a7ab91b5cf408e7e9c4ad658eb0544d4c9))
+*   cargo-script builds on stable rustc ([d8c4eecc](https://github.com/kbknapp/cargo-extras/commit/d8c4eecc839dbca4a4813d53da4efcb924142aeb))
+*   updates cargo-edit and cargo-script ([8b97ae78](https://github.com/kbknapp/cargo-extras/commit/8b97ae785e5deab8378549f8ed77319e8c9e2a5a))
 
 #### Bug Fixes
 
+*   had to remove cargo-clippy due to external lib requirement. Hope to resolve soon ([2fb5bec8](https://github.com/kbknapp/cargo-extras/commit/2fb5bec8185fccb29944c030b2135e4cc5196d11))
+*   had to remove cargo-clippy due to external lib requirement. Hope to resolve soon ([ac61c644](https://github.com/kbknapp/cargo-extras/commit/ac61c644d76c98cfd726941ca2532244d4f55ff4))
 *   had to remove cargo-clippy due to external lib requirement. Hope to resolve soon ([ac61c644](https://github.com/kbknapp/cargo-extras/commit/ac61c644d76c98cfd726941ca2532244d4f55ff4))
 
 <a name="v0.2.2"></a>
