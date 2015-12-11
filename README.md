@@ -18,7 +18,7 @@ Because one of the subcommands requires `cmake` to build, you must have `cmake` 
 
 ### Primary Method: `cargo install`
 
-To install from [crates.io](https://crates.io) simply run (ensure you have a **nightly** `rustc` installed, or are using something like `multirust`<sup>[1](https://github.com/Diggsey/multirust-rs),[2](https://github.com/brson/multirust)</sup> ):
+To install from [crates.io](https://crates.io) simply run 
 
 ```
 $ cargo install cargo-extras
@@ -41,6 +41,8 @@ If you get an error about the `install` command not being found, or are using `m
 ```
 $ multirust run nightly cargo install cargo-extras
 ```
+
+**Note:** As of Rust 1.5 the `cargo install` command is included, no more requirement to use a nightly compiler. So if you are receiving the above error, and using a stable compiler version, ensure that you have at least Rust 1.5
 
 You may also, instead compile and install the traditional way by following the instructions below.
 
@@ -114,7 +116,7 @@ Otherwise, ensure you have the binaries in the directory which you operating in 
  * [cargo-graph v0.1.3](https://github.com/kbknapp/cargo-graph) - builds dependency graphs using GraphViz `dot` and is an updated fork of [cargo-dot](https://github.com/maxsnew/cargo-dot) with additional features
  * [cargo-open v0.3.0 (c070fb01b5)](https://github.com/carols10cents/cargo-open) - quickly open a crate in your `$EDITOR`
  * [cargo-outdated v0.1.3](https://github.com/kbknapp/cargo-outdated) - displays when newer versions of Rust dependencies are available, or out of date
- * [cargo-script v0.1.4 (ccf3f7fbfc)](https://github.com/DanielKeep/cargo-script) - lets people quickly and easily run Rust "scripts" which can make use of Cargo's package ecosystem (Requires **nightly** `rustc` to build)
+ * [cargo-script v0.1.4 (ccf3f7fbfc)](https://github.com/DanielKeep/cargo-script) - lets people quickly and easily run Rust "scripts" which can make use of Cargo's package ecosystem
  * [cargo-watch v3.0.1](https://github.com/passcod/cargo-watch) - utility for `cargo` to compile projects when sources change
 
 ## License
