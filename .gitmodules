@@ -16,9 +16,6 @@
 [submodule "src/cargo-edit"]
 	path = src/cargo-edit
 	url = https://github.com/killercup/cargo-edit
-[submodule "src/cargo-fmt"]
-	path = src/cargo-fmt
-	url = https://github.com/pwoolcoc/cargo-fmt
 [submodule "src/cargo-script"]
 	path = src/cargo-script
 	url = https://github.com/DanielKeep/cargo-script
