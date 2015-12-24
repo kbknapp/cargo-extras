@@ -116,6 +116,7 @@ Otherwise, ensure you have the binaries in the directory which you operating in 
  * [cargo-open v0.3.0 (c070fb01b5)](https://github.com/carols10cents/cargo-open) - quickly open a crate in your `$EDITOR`
  * [cargo-outdated v0.1.3](https://github.com/kbknapp/cargo-outdated) - displays when newer versions of Rust dependencies are available, or out of date
  * [cargo-script v0.1.4 (ccf3f7fbfc)](https://github.com/DanielKeep/cargo-script) - lets people quickly and easily run Rust "scripts" which can make use of Cargo's package ecosystem
+ * [cargo-vendor v0.1.0 (35d306a)](https://github.com/alexcrichton/cargo-vendor) - a proof-of-concept Cargo subcommand which is used to vendor all crates.io dependencies into a local directory.
  * [cargo-watch v3.0.1](https://github.com/passcod/cargo-watch) - utility for `cargo` to compile projects when sources change
 
 ## License
