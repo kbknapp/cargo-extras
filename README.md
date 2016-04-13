@@ -72,7 +72,7 @@ All you need to do is place the binary subcommands somewhere in your `$PATH`. Th
 $ cp target/release/cargo-* ~/.bin
 ```
 
-In the above example, the `.bin` directory inside my home directy is inside my `$PATH`
+In the above example, the `.bin` directory inside my home directory is inside my `$PATH`
 
 ###### Linux / OS X
 
