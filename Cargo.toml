@@ -81,7 +81,7 @@ path = "src/cargo-vendor/src/main.rs"
 
 [dependencies]
 ### cargo-count
-clap      = "1.5.4"
+clap      = "2.4.0"
 glob      = "0.2.10"
 regex     = "0.1.44"
 tabwriter = "0.1.24"
