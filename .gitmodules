@@ -22,9 +22,6 @@
 [submodule "src/cargo-watch"]
 	path = src/cargo-watch
 	url = https://github.com/passcod/cargo-watch
-[submodule "src/cargo-clippy"]
-	path = src/cargo-clippy
-	url = https://github.com/arcnmx/cargo-clippy
 [submodule "src/cargo-config"]
 	path = src/cargo-config
 	url = https://github.com/wesleywiser/cargo-config
