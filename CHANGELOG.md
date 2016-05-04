@@ -1,3 +1,30 @@
+<a name="v0.4.0"></a>
+## v0.4.0 (2016-05-04)
+
+
+#### Additions
+
+*   cargo-clone ([a4903610](https://github.com/kbknapp/cargo-extras/commit/a4903610431ef16278e3974adddaacd940863aca))
+
+#### Updates
+
+*   cargo-watch ([522e7dda](https://github.com/kbknapp/cargo-extras/commit/522e7ddab403f14d09ae2df2a9cbcca8cf898701))
+*   cargo-vendor ([f76ef86e](https://github.com/kbknapp/cargo-extras/commit/f76ef86e168a93e7c101661f3627c7a320ce0795))
+*   cargo-script ([6d4e6a34](https://github.com/kbknapp/cargo-extras/commit/6d4e6a346e6f92ef507cca03b46b94c1db9405a6))
+*   cargo-outdated ([908465b3](https://github.com/kbknapp/cargo-extras/commit/908465b3b7e006cace6998c09fff5cf62a255030))
+*   cargo-open ([da4ad823](https://github.com/kbknapp/cargo-extras/commit/da4ad8239415d449a3ee92b8d3d084edca876704))
+*   cargo-graph ([8249c0b2](https://github.com/kbknapp/cargo-extras/commit/8249c0b2ea28f9169704a76e091d67102add9703))
+*   cargo-edit ([cf7aaf44](https://github.com/kbknapp/cargo-extras/commit/cf7aaf44b2b85d9a00dee5f42fbb21214a788bee))
+*   cargo-do ([2b673d02](https://github.com/kbknapp/cargo-extras/commit/2b673d023abfe779e2e91ae16de78f4180f8d455))
+*   cargo-count ([a57ec0f2](https://github.com/kbknapp/cargo-extras/commit/a57ec0f204e0496690ec3cc05f3dc905cd07c8bd))
+*   cargo-check ([c3ac96e5](https://github.com/kbknapp/cargo-extras/commit/c3ac96e544eea40c625b35d3ef9b7a5cca7fc4a2))
+
+#### Removes
+
+*   cargo-clippy ([3daba528](https://github.com/kbknapp/cargo-extras/commit/3daba528e720e25821fb19d180cec42f15f302e9))
+
+
+
 <a name="v0.3.0"></a>
 ## v0.3.0 (2015-12-24)
 
