@@ -107,17 +107,18 @@ Otherwise, ensure you have the binaries in the directory which you operating in 
 
 `cargo-extras` currently includes the following subcommands (commits listed for subcommands not using `git tag`s):
 
- * [cargo-check v0.1.0 (e602882a3a)](https://github.com/rsolomo/cargo-check) - a wrapper around `cargo rustc -- -Zno-trans` which can be helpful for running a faster compile if you only need correctness checks
- * [cargo-config v0.1.1 (d6ad04c593)](https://github.com/wesleywiser/cargo-config) - prints info about the current crate
- * [cargo-count v0.2.1](https://github.com/kbknapp/cargo-count) - lists source code counts and details about cargo projects, including unsafe statistics
- * [cargo-do v0.3.1 (b120fce315)](https://github.com/pwoolcoc/cargo-do) - run multiple `cargo` commands in a row
- * [cargo-edit v0.1.1 (3ae8e70bf1)](https://github.com/killercup/cargo-edit) - allows you to add and remove dependencies from the command line. Installs `cargo-add`, `cargo-rm`, and `cargo-list`.
- * [cargo-graph v0.2.0](https://github.com/kbknapp/cargo-graph) - builds dependency graphs using GraphViz `dot` and is an updated fork of [cargo-dot](https://github.com/maxsnew/cargo-dot) with additional features
- * [cargo-open v0.3.0 (c070fb01b5)](https://github.com/carols10cents/cargo-open) - quickly open a crate in your `$EDITOR`
- * [cargo-outdated v0.1.3](https://github.com/kbknapp/cargo-outdated) - displays when newer versions of Rust dependencies are available, or out of date
- * [cargo-script v0.1.4 (ccf3f7fbfc)](https://github.com/DanielKeep/cargo-script) - lets people quickly and easily run Rust "scripts" which can make use of Cargo's package ecosystem
- * [cargo-vendor v0.1.0 (35d306a)](https://github.com/alexcrichton/cargo-vendor) - a proof-of-concept Cargo subcommand which is used to vendor all crates.io dependencies into a local directory.
- * [cargo-watch v3.0.1](https://github.com/passcod/cargo-watch) - utility for `cargo` to compile projects when sources change
+ * [cargo-check](https://github.com/rsolomo/cargo-check) - a wrapper around `cargo rustc -- -Zno-trans` which can be helpful for running a faster compile if you only need correctness checks
+ * [cargo-clone](https://github.com/JanLikar/cargo-clone)
+ * [cargo-config](https://github.com/wesleywiser/cargo-config) - prints info about the current crate
+ * [cargo-count](https://github.com/kbknapp/cargo-count) - lists source code counts and details about cargo projects, including unsafe statistics
+ * [cargo-do](https://github.com/pwoolcoc/cargo-do) - run multiple `cargo` commands in a row
+ * [cargo-edit](https://github.com/killercup/cargo-edit) - allows you to add and remove dependencies from the command line. Installs `cargo-add`, `cargo-rm`, and `cargo-list`.
+ * [cargo-graph](https://github.com/kbknapp/cargo-graph) - builds dependency graphs using GraphViz `dot` and is an updated fork of [cargo-dot](https://github.com/maxsnew/cargo-dot) with additional features
+ * [cargo-open](https://github.com/carols10cents/cargo-open) - quickly open a crate in your `$EDITOR`
+ * [cargo-outdated](https://github.com/kbknapp/cargo-outdated) - displays when newer versions of Rust dependencies are available, or out of date
+ * [cargo-script](https://github.com/DanielKeep/cargo-script) - lets people quickly and easily run Rust "scripts" which can make use of Cargo's package ecosystem
+ * [cargo-vendor](https://github.com/alexcrichton/cargo-vendor) - a proof-of-concept Cargo subcommand which is used to vendor all crates.io dependencies into a local directory.
+ * [cargo-watch](https://github.com/passcod/cargo-watch) - utility for `cargo` to compile projects when sources change
 
 ## License
 
